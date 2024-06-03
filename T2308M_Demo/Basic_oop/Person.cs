@@ -4,10 +4,11 @@ namespace Basic_oop
 	public class Person
 	{
         private string name;
+        private int age;
 
         public string Name { get => name; set => name = value; }
-        public int Age { get; set; }
-		public string Sex { get; set; }
+        public int Age { get { return age + 3;  } set => age = value; }
+        public string Sex { get; set; }
 		public int Height { get; set; }
 		public double Weight { get; set; }
 
@@ -22,6 +23,14 @@ namespace Basic_oop
         }
         internal void GetName()
 		{
+			try
+			{
+
+			}
+			catch (Exception ex)
+			{
+				throw new NotImplementedException();
+			}
 			Console.WriteLine("Got the name");
 		}
 		public void Walk()
