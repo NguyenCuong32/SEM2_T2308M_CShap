@@ -6,6 +6,7 @@ class Program
     {
         Console.WriteLine("Event Example");
         BusinessProcess businessProcess = new BusinessProcess();
+        businessProcess.OnProcess -= BusinessProcess_OnProcess;
         businessProcess.OnProcess += BusinessProcess_OnProcess;
         businessProcess.StartProcess();
     }

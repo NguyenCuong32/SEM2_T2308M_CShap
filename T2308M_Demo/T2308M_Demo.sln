@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDelegate", "DemoDelegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEvent", "DemoEvent\DemoEvent.csproj", "{499B81C1-DA9C-4CE6-B2E1-70A301B1B3C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOOP_Generic", "BasicOOP_Generic\BasicOOP_Generic.csproj", "{88E7F08F-8EF2-4082-A5A2-A917A5D63776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{499B81C1-DA9C-4CE6-B2E1-70A301B1B3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499B81C1-DA9C-4CE6-B2E1-70A301B1B3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499B81C1-DA9C-4CE6-B2E1-70A301B1B3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E7F08F-8EF2-4082-A5A2-A917A5D63776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E7F08F-8EF2-4082-A5A2-A917A5D63776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E7F08F-8EF2-4082-A5A2-A917A5D63776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E7F08F-8EF2-4082-A5A2-A917A5D63776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
