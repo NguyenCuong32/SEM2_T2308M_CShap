@@ -6,7 +6,12 @@ namespace BasicOOP_Inheritance
 		public Animal()
 		{
 		}
-		public void Eat()
+        /// <summary>
+        /// This is eat method.\r\n
+        /// Using when .... \r\n
+        /// Exception .... \r\n
+        /// </summary>
+        public void Eat()
 		{
 			Console.WriteLine("Animal have eat");
 		}
